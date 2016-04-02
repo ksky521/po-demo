@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+  <link rel="stylesheet" type="text/css" href="../sass/m-base.scss">
+  <link rel="stylesheet" type="text/css" href="../sass/test.scss">
+</head>
+<body>
+  <h1>hello, <span>world</span></h1>
+  <div id="demo">
+    😄
+  </div>
+  <script src="../jslib/mod/mod.js"></script>
+  <script type="text/javascript">
+    require.async(['static/js/test','mods/header'], function(test, header){
+      console.log(test, header());
+    });
+  </script>
+  <!--debug-->
+  <h2>这是测试内容</h2>
+  <!--/debug-->
+</body>
+</html>
