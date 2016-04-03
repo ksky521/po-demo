@@ -14,7 +14,11 @@
   <script src="../jslib/mod/mod.js"></script>
   <script type="text/javascript">
     require.async(['static/js/test','mods/header'], function(test, header){
-      console.log(test, header());
+      var html = header();
+      console.log(test, html);
+      var div = document.createElement('div');
+      div.innerHTML = html;
+      document.getElementById('demo').appendChild(div);
     });
   </script>
   <!--debug-->
