@@ -1,3 +1,0 @@
-[submodule "static/jslib/mod"]
-	path = static/jslib/mod
-	url = git@github.com:fex-team/mod.git
