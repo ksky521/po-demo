@@ -1,3 +1,6 @@
 [submodule "common"]
 	path = common
 	url = git@github.com:ksky521/po-common.git
+[submodule "demo/static/sass/core"]
+	path = demo/static/sass/core
+	url = git@github.com:ksky521/po.sass.git
