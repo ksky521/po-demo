@@ -1,0 +1,10 @@
+{
+  "domain": {
+    "static/**": "",
+    "::image": ""
+  },
+  "smarty": {
+    "left_delimiter": "{%",
+    "right_delimiter": "%}"
+  }
+}

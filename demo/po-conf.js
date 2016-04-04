@@ -1,6 +1,5 @@
-po.set('static', 'po-demo')
-  .set('namespace', 'demo')
-  .set('template', 'template');
+po.set('static', 'static')
+  .set('namespace', 'demo');
 
 fis.set('project.ignore', [
   'output/**',
