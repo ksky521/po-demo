@@ -27,7 +27,9 @@
         <td id="j-4">羊年行大运</td>
     </tr>
 </table>
-
+    {%require name="http://apps.bdimg.com/libs/zepto/1.1.4/zepto.min.js"%}
+    {%require name="http://apps.bdimg.com/libs/frozenui/1.3.0/css/frozen.css"%}
+    {%require name="common:po/monitor/hm"%}
     {%script type="text/javascript"%}
     require.async(['static/js/test','mods/header'], function(test, header){
       var html = header();

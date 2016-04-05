@@ -1,8 +1,8 @@
 {
   "template": "template",
   "domain": {
-    "static/**": "",
-    "::image": ""
+    "{*.{js,scss,ejs,less,css},**/*.{js,scss,ejs,less,css}}": "//127.0.0.1:8080",
+    "::image": "//127.0.0.1:8080"
   },
   "smarty": {
     "left_delimiter": "{%",
