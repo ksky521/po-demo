@@ -1,3 +1,6 @@
+@import "core/vars";
+@import "core/reset";
+@include reset();
 h1{
   font-size: 32px;
   span{
@@ -7,3 +10,6 @@ h1{
 #demo {
   background-color: lightblue;
 }
+td{text-align: center;width: 60px;height: 60px;border: 1px solid #ccc;}
+table{border-collapse: collapse;margin:20px auto;}
+.bg{background-color: lightblue;}
