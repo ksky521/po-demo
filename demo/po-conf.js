@@ -9,3 +9,10 @@ fis.set('project.ignore', [
   '.svn/**',
   'static/jslib/mod/test/**'
 ]);
+po.match('/mods/header/header.js', {
+  packTo: '${static}/pkg/aio.js',
+  packOrder: -1
+}).match('/mods/header/header.ejs', {
+  packTo: '${static}/pkg/aio.js',
+  packOrder: -2
+})
